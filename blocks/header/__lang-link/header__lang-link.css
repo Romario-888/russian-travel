@@ -8,3 +8,12 @@
 .header__lang-link:last-child {
   margin-right: 0;
 }
+
+
+.header__lang-link:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
+
+
+
