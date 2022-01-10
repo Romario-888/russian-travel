@@ -2,13 +2,8 @@
   color: #ffffff;
   text-decoration: none;
   margin: 0;
-  margin-right: 18px;
-}
 
-.header__lang-link:last-child {
-  margin-right: 0;
 }
-
 
 .header__lang-link:hover {
   opacity: 0.5;

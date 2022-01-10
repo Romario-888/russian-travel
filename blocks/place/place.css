@@ -7,7 +7,6 @@
   "title website"
   "image text";
   margin: 0 0 80px;
-  overflow: hidden;
 }
 
 .place:last-of-type {
@@ -16,6 +15,7 @@
 
 @media screen and (max-width: 1184px) {
   .place {
+    max-width: 928px;
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
   }
@@ -23,13 +23,14 @@
 
 @media screen and (max-width: 960px) {
   .place {
+    max-width: 720px;
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
     margin: 0 0 73px;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 700px) {
   .place {
     grid-template-columns: minmax(320px, 1fr);
     grid-template-areas:
